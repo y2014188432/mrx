@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>头部导航栏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            float: left;
+        }
+
+        .topNav {
+            width: 100%;
+            height: 50px;
+            background-color: #eee;
+            position: fixed;
+        }
+
+        .logo {
+            width: 187px;
+            height: 50px;
+            float: left;
+            position: relative;
+        }
+
+        .logo img {
+            width: 122px;
+            height: 25px;
+            position: absolute;
+            right: 0;
+            top: 13px;
+        }
+
+        .logo_black {
+            display: block;
+        }
+
+        .nav_left>li {
+            height: 50px;
+            font-size: 20px;
+            line-height: 50px;
+            margin: 0 25px;
+            position: relative;
+        }
+
+        i {
+            width: 0px;
+            height: 0px;
+            border: 6px solid transparent;
+            border-top-color: #666;
+            border-bottom: none;
+            float: right;
+            margin-left: 10px;
+            margin-top: 22px;
+        }
+
+        .nav_left>li:hover i {
+            border: 6px solid transparent;
+            border-bottom-color: #DC143C;
+            border-top: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topNav">
+        <div class="logo">
+            <a href="#">
+                <img src="https://www.hozonauto.com/html/common/images/logo_white.png?t=1" alt="哪吒汽车logo"
+                    class="logo_white">
+                <img src="https://www.hozonauto.com/html/common/images/logo.png?t=1" alt="哪吒汽车logo" class="logo_black">
+            </a>
+        </div>
+        <div class="loop">
+            <ul class="nav_left">
+                <li>车型<i></i>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </li>
+                <li>购车<i></i>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </li>
+                <li>服务<i></i></li>
+                <li>关于我们<i></i>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav_right">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
