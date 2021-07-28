@@ -1,0 +1,126 @@
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #aaa;
+    position: fixed;
+    bottom: 0;
+}
+
+.foot {
+    width: 100%;
+    height: 140px;
+    background-color: #ddd;
+    padding: 50px 0;
+}
+
+.foottop {
+    padding: 0 15px;
+    margin: 0 20%;
+}
+
+.footlogo,
+.footNav,
+.followUs {
+    float: left;
+}
+
+.footlogo img {
+    width: 70px;
+    height: 83px;
+}
+
+.footNav {
+    width: 120px;
+    height: 100px;
+}
+
+.footNav h1 {
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.footNav a {
+    color: #000;
+}
+
+.footNav a:hover {
+    text-decoration: underline;
+}
+
+.footNav1 {
+    margin-left: 50px;
+}
+
+.followUs {
+    width: 250px;
+    height: 140px;
+    border-left: 1px solid #000;
+}
+
+.followUs p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.followMe {
+    width: 250px;
+    height: 60px;
+    padding: 25px;
+}
+
+.Me {
+    width: 49px;
+    height: 48px;
+    margin: 10px;
+    float: left;
+}
+
+.Me:nth-child(1) {
+    margin-left: 10px;
+    background-image: url(https://www.hozonauto.com/html/common/images/icon-sina.png);
+}
+
+.Me:nth-child(2) {
+    background-image: url(https://www.hozonauto.com/html/common/images/icon-wechat.png);
+}
+
+.Me:nth-child(3) {
+    background-image: url(https://www.hozonauto.com/html/common/images/icon-phone.png);
+}
+
+.copyfoot {
+    width: 100%;
+    height: 60px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 0;
+}
+
+.copybot {
+    width: 1200px;
+    margin: auto;
+}
+
+.copybot li {
+    float: left;
+    height: 50px;
+    font-size: 15px;
+    line-height: 60px;
+    margin: 0 15px;
+}
+
+.copybot li>a {
+    color: #000;
+}
+
+.copybot li>a:hover {
+    text-decoration: underline;
+}
+
+.copybot>ul>li:nth-child(3) img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
