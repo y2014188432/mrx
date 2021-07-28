@@ -127,9 +127,18 @@ i {
     color: #fff;
 }
 
-.nav_right>li:nth-child(1) input {
-    
-    border-radius: 12px;
+[type="search"] {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    text-indent: 1em;
+}
+
+.nav_right>li:nth-child(1) {
+    margin-right: 50px;
 }
 
 .nav_right>li:nth-child(2) {
