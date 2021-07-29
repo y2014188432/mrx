@@ -51,17 +51,22 @@
         }
         
         [type="text"] {
-            border-bottom: 1px solid black;
-        }
-        
-        [type="radio"] {
-            width: 37%;
-            border-radius: 0;
-            border: 1px solid #ccc;
+            font-size: 20px;
+            color: #aaa;
+            border-bottom: 1px solid #ccc;
         }
         
         [type="button"] {
             width: 37%;
+            color: #fff;
+            background-color: #aaa;
+            font-size: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        [type="button"]:hover {
+            background-color: purple;
         }
         
         [value="注册"] {
@@ -71,6 +76,11 @@
         select {
             width: 37%;
             height: 35px;
+            font-size: 20px;
+            color: #aaa;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ccc;
         }
         
         [id="s"] {
@@ -85,7 +95,7 @@
 </head>
 
 <body>
-
+    <iframe src="header.html" class="header" frameborder="0" scrolling="no" width="100%" height="150px"></iframe>
     <div>
         <div class="container">
             <div class="left">
@@ -101,14 +111,15 @@
                 <div class="zc">
 
 
-                    <select name="prov" id="" placeholder="省份 ">
-                            <option value="">黑龙江</option>
+                    <select name="prov" id="">
+                        
+                            <option value="" disabled selected>黑龙江</option>
                             <option value="">吉林</option>
                             <option value="">辽宁</option>
                             <option value="">江苏</option>
                         </select>
-                    <select name="city" id="" placeholder="城市">
-                            <option value="">哈尔滨</option>
+                    <select name="city" id="">
+                            <option value=""disabled selected>哈尔滨</option>
                             <option value="">苏州</option>
                             <option value="">常州</option>
                             <option value="">南京</option>
@@ -116,8 +127,8 @@
                 </div>
                 <div class="zc">
 
-                    <select name="shop" id="s" placeholder="请选择经销商">
-                        <option value="">广州</option>
+                    <select name="shop" id="s">
+                        <option value=""disabled selected>广州</option>
                         <option value="">上海</option>
                         <option value="">深圳</option>
                         <option value="">北京</option>
@@ -125,10 +136,10 @@
                 </div>
                 <div class="zc">
 
-                    <input type="radio" value="哪吒U Pro">
+                    <input type="button" value="哪吒U Pro">
 
 
-                    <input type="radio" value="哪吒V">
+                    <input type="button" value="哪吒V">
 
                 </div>
 
@@ -148,7 +159,7 @@
                 <img src="https://www.hozonauto.com/html/new-testdrive/nezheUPro/pc-u-pro-b-2.png" alt="" width="100%" height="100%">
             </div>
         </div>
-
+        <iframe src="footer.html" class="footer" frameborder="0" scrolling="no" width="100%" height="300px"></iframe>
 
 
 </body>
