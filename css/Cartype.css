@@ -5,7 +5,7 @@
 
 .container {
     width: 100%;
-    height: 100%-300px;
+    height: 100%;
 }
 
 .a img {
@@ -83,7 +83,7 @@
     height: 60px;
 }
 
-.e .right {
+.e .color_right {
     width: 200px;
     height: 400px;
     float: right;
@@ -93,7 +93,7 @@
     top: 180px;
 }
 
-.left {
+.car_left {
     width: 600px;
     height: 240px;
     position: absolute;
