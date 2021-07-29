@@ -6,23 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首页</title>
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
-
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-        crossorigin="anonymous"></script>
-
-
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/bootstrap.js"></script>
 
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
+    
     <style>
         body {
             height: 100%;
@@ -42,16 +33,27 @@
             z-index: 999;
         }
     </style>
+    <script>
+        window.onscroll = function () { scrollFunction() };
 
+        function scrollFunction() {
+
+            if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
+                document.getElementById("topNav").style.backgroundColor = "red";
+            } else {
+                document.getElementById("topNav").style.backgroundColor = "transparent";
+            }
+        }
+    </script>
 </head>
 
 <body>
-    <!-- <div id="topNav">
+    <div id="topNav">
     </div>
     <script>
         $('#topNav').load('header.html')
-    </script> -->
-    <iframe src="header.html" class="header" frameborder="0" scrolling="no" width="100%" height="150px"></iframe>
+    </script>
+    <!-- <iframe src="header.html" class="header" frameborder="0" scrolling="no" width="100%" height="150px"></iframe> -->
 
     <div class="conta">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -125,8 +127,6 @@
 
 
 
-    <script src="./js/jquery-3.6.0.js"></script>
-    <script src="./js/bootstrap.js"></script>
 </body>
 
 </html>
