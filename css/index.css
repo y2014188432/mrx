@@ -1,0 +1,40 @@
+ .conta {
+     width: 100%;
+     height: 100%;
+ }
+
+ .mid {
+     width: 100%;
+     height: 320px;
+     margin: 10px 0;
+ }
+
+ .mid_img1,
+ .mid_img2 {
+     width: 49%;
+     height: 100%;
+     float: left;
+     margin-left: 10px;
+ }
+
+ img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .mid_img3,
+ .mid_img4,
+ .mid_img5 {
+     width: 33%;
+     height: 100%;
+     float: left;
+ }
+
+ .mid_2>div~div {
+     margin-left: 7px;
+ }
+
+ .mid_app {
+     width: 100%;
+     height: 400px;
+ }
