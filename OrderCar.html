@@ -5,93 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>订购汽车</title>
-    <link rel="stylesheet" href="./css/OrderCar.css">
-
+    <link rel="stylesheet" href="./css/base.css">
     <style>
-        html,
-        body {
-            /* width: 100%; */
-            height: 100%;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        .container {
+        html body {
             width: 100%;
             height: 100%;
-            background: url(https://www.hozonauto.com/html/nezha-v/choose/pc-bg.jpg?t=3) no-repeat;
             position: relative;
         }
-        
+
+        .header {
+            position: fixed;
+            z-index: 999;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: -300px;
+            z-index: 999;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background: url(https://www.hozonauto.com/html/nezha-v/choose/pc-bg.jpg?t=3) -200px -250px no-repeat;
+            position: relative;
+        }
+
         .itema {
-            width: 500px;
-            height: 100px;
+            width: 400px;
+            height: 200px;
             position: absolute;
-            bottom: 150px;
-            left: 350px;
+            bottom: 20px;
+            left: 50%;
+            margin-left: -500px;
         }
-        
+
         .itemb {
-            width: 500px;
-            height: 100px;
+            width: 620px;
+            height: 200px;
             position: absolute;
-            bottom: 150px;
-            right: 300px;
+            bottom: 20px;
+            left: 50%;
         }
-        
+
         .btna {
-            width: 200px;
+            width: 250px;
             height: 40px;
-            font-size: 25px;
+            font-size: 20px;
             text-align: center;
             line-height: 40px;
-            margin: 30px auto;
-            border: 1px solid black;
+            border: 1px solid #fff;
             border-radius: 5px;
             background-color: white;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -125px;
         }
-        
-        .btnb {
-            width: 280px;
-            height: 40px;
-            font-size: 25px;
-            text-align: center;
-            line-height: 40px;
-            margin: 10px auto;
-            border: 1px solid black;
-            border-radius: 5px;
-            background-color: white;
-        }
-        
-        .btna:hover,
-        .btnb:hover {
+
+
+        .btna:hover {
             background-color: cornflowerblue;
         }
     </style>
 </head>
 
 <body>
+    <iframe src="header.html" class="header" frameborder="0" scrolling="no" width="100%" height="150px"></iframe>
 
     <div>
         <div class="container">
             <div class="itema">
                 <img class="i" src="https://www.hozonauto.com/html/nezha-v/choose/v-intro.png?t=3" alt="">
-                <a href="OrderInfor.html">
-                    <div class="btna">订购你的哪吒</div>
-                </a>
+                <div class="btna"><a href="OrderInfor.html"></a>订购你的哪吒V</a></div>
             </div>
             <div class="itemb">
                 <img class="i" src="https://www.hozonauto.com/html/nezha-v/choose/u-pro-intro.png?t=3" alt="">
-                <a href="OrderInfor.html">
-                    <div class="btnb">订购你的哪吒U Pro</div>
-                </a>
+                <div class="btna"><a href="OrderInfor.html"></a>订购你的哪吒U Pro</a></div>
             </div>
         </div>
 
     </div>
+
+    <iframe src="footer.html" class="footer" frameborder="0" scrolling="no" width="100%" height="300px"></iframe>
 
 </body>
 
