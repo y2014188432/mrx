@@ -140,3 +140,8 @@ i {
     border-radius: 12px;
     margin-top: 10px;
 }
+
+.nav_right>li:hover a {
+    color: #000;
+    font-weight: 700;
+}
