@@ -7,27 +7,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>售后服务</title>
-    <link rel="stylesheet" href="css/shouhoufuwu.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="css/afterseal.css">
+    <style>
+          body {
+            height: 100%;
+            position: relative;
+        }
+
+        .header {
+            position: fixed;
+            z-index: 999;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: -300px;
+            z-index: 999;
+        }
+
+    </style>
 </head>
 
 <body>
+    <iframe src="header.html" class="header" frameborder="0" scrolling="no" width="100%" height="150px"></iframe>
+
     <div class="b-content">
         <div class="pc">
-            <img src="https://www.hozonauto.com/html/new-aftersale/img/pc-1.jpg?v=1626834528" alt="" width="100%" height="100%">
+            <img src="https://www.hozonauto.com/html/new-aftersale/img/pc-1.jpg?v=1626834528" alt="" width="100%"
+                height="100%">
 
             <div class="title-t">
                 查看《 哪吒汽车用户手册 》
-                <div class="mneu">
-                    <div class="list">查看《 哪吒U Pro用户手册 》</div>
-                    <div class="list">查看《 哪吒V用户手册 》</div>
+                <div class="menu">
+                    <i></i>
+                    <div class="list"><a href="#">查看《 哪吒U Pro用户手册 》</a></div>
+                    <div class="list"><a href="#">查看《 哪吒V用户手册 》</a></div>
                 </div>
             </div>
         </div>
 
-
-
     </div>
-    </div>
+
+    <iframe src="footer.html" class="footer" frameborder="0" scrolling="no" width="100%" height="300px"></iframe>
 
 </body>
 
