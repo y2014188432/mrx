@@ -1,0 +1,59 @@
+html body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    z-index: 999;
+}
+
+.footer {
+    position: absolute;
+    bottom: -300px;
+    z-index: 999;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url(https://www.hozonauto.com/html/nezha-v/choose/pc-bg.jpg?t=3) -200px -250px no-repeat;
+    position: relative;
+}
+
+.itema {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -500px;
+}
+
+.itemb {
+    width: 620px;
+    height: 200px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+
+.btna {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -125px;
+}
+
+.btna:hover {
+    background-color: cornflowerblue;
+}
