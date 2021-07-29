@@ -6,11 +6,23 @@
 .b-content {
     width: 100%;
     height: 100%;
-    display: block;
     position: relative;
 }
 
-img {
+.pc {
+    position: relative;
+}
+
+.title-t {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 50px;
+}
+
+
+/* img {
     border: none;
     vertical-align: middle;
     width: 100%;
@@ -43,9 +55,9 @@ img {
     box-shadow: 0 0 5px rgb(0, 0, 0 / 20%);
     position: relative;
     /* display: none; */
-}
 
-.inner .p-body .b-btn {
+
+/* .inner .p-body .b-btn {
     width: 100%;
     height: 3.1vw;
     border: 1px solid #949494;
@@ -57,12 +69,10 @@ img {
     align-items: center;
     cursor: pointer;
 }
-
 .inner .p-body .b-btn:nth-child(n+2) {
     margin-top: 0.5vw;
 }
-
-.inner .p-body .b-btn {
+.inner .p-body .btn-t {
     width: 100%;
     height: 3.1vw;
     border: 1px solid #949449;
@@ -74,7 +84,6 @@ img {
     align-items: center;
     cursor: pointer;
 }
-
 .inner .p-title {
     width: 100%;
     height: 3.1vw;
@@ -87,7 +96,6 @@ img {
     align-items: center;
     cursor: pointer;
 }
-
 .inner .p-body::before {
     content: '';
     display: block;
@@ -99,4 +107,4 @@ img {
     border-left: 1vw solid transparent;
     border-right: 1vw solid transparent;
     border-top: 0.78vw solid #ffffff;
-}
+} */
