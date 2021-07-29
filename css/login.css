@@ -1,0 +1,123 @@
+.topnav {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.left_logo {
+    width: 50%;
+    height: 60px;
+    float: left;
+}
+
+.left_logo img {
+    width: 122px;
+    height: 25px;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+
+.right_login {
+    width: 50%;
+    height: 60px;
+    text-align: right;
+    float: right;
+}
+
+.right_login a {
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    line-height: 60px;
+    margin-right: 40px;
+    ;
+}
+
+.page_log {
+    width: 100%;
+    height: 100%;
+}
+
+.log {
+    position: absolute;
+    top: 30%;
+
+}
+
+.log_img {
+    /* width: 100%;
+            height: 600px; */
+    float: left;
+}
+
+.log_img img {
+    width: 90%;
+}
+
+.log_in {
+    width: 304px;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.log_in h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.log_on {
+    width: 300px;
+    height: 35px;
+    margin: 20px 0;
+    padding-bottom: 0;
+}
+
+.log_on:nth-child(2) {
+    border-bottom: 1px solid #ccc;
+}
+
+.log_on:nth-child(3) {
+    border-bottom: 1px solid #ccc;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+[type="text"] {
+    width: 60%;
+    height: 30px;
+}
+
+[type="text"]:only-child {
+    width: 100%;
+}
+
+[type="button"] {
+    font-size: 15px;
+    color: blue;
+    border: none;
+    background-color: #fff;
+}
+
+[type="submit"] {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color: #00f;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 5px;
+    border: 1px solid #00f;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+}

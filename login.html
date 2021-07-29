@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: -300px;
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="left_logo"><img src="https://www.hozonauto.com/html/common/images/logo.png?t=1" alt=""></div>
+        <div class="right_login"><a href="#">登录</a></div>
+    </div>
+
+    <div class="page_log">
+        <div class="log">
+            <div class="log_img"><img src="https://www.hozonauto.com/autoupro/order-pc/img/login-car.6712d1f2.png"
+                    alt="">
+            </div>
+            <div class="log_in">
+                <form action="">
+                    <h1>验证码登录</h1>
+                    <div class="log_on"><input type="text" placeholder="请输入手机号"></div>
+                    <div class="log_on">
+                        <input type="text" placeholder="请输入短信验证码">
+                        <input type="button" value="获取验证码"></input>
+                    </div>
+                    <div class="log_on"><input type="submit" value="登录"></div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <iframe src="footer.html" class="footer" frameborder="0" scrolling="no" width="100%" height="300px"></iframe>
+
+</body>
+
+</html>
