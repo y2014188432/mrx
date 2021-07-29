@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="topNav">
+    <div class="topNav" id="topNav">
         <div class="logo">
             <a href="index.html" target="_blank">
                 <img src="https://www.hozonauto.com/html/common/images/logo_white.png?t=1" alt="哪吒汽车logo"
@@ -53,6 +53,18 @@
         </div>
     </div>
 
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            console.log(121);
+            if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+                document.getElementById("topNav").style.backgroundColor = "red";
+            } else {
+                document.getElementById("topNav").style.backgroundColor = "transparent";
+            }
+        }
+    </script>
 </body>
 
 </html>
