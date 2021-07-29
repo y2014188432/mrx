@@ -56,6 +56,7 @@
     width: 250px;
     height: 140px;
     border-left: 1px solid #000;
+    position: relative;
 }
 
 .followUs p {
@@ -123,4 +124,17 @@
     height: 20px;
     position: relative;
     top: 5px;
+}
+
+.Me img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: -150px;
+    top: 0px;
+    display: none;
+}
+
+.Me:hover img {
+    display: block;
 }

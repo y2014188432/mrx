@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>预订信息</title>
+    <link rel="stylesheet" href="./css/bass.css">
     <style>
         html,
         body {
@@ -23,17 +24,6 @@
             position: relative;
         }
         
-        .one,
-        .two,
-        .three,
-        .six {
-            width: 500px;
-            height: 50px;
-            font-size: 30px;
-            margin-top: 40px;
-            margin-left: 100px;
-        }
-        
         .left {
             width: 600px;
             height: 700px;
@@ -41,42 +31,56 @@
             top: 100px;
         }
         
-        .fourth {
-            width: 240px;
-            height: 45px;
-            margin-top: 40px;
+        .zc {
+            width: 400px;
+            height: 50px;
+            margin-top: 30px;
             margin-left: 100px;
         }
         
-        .four {
-            float: left;
+        h2 {
+            font-size: 40px;
+            margin-left: 70px;
         }
         
-        .five {
-            float: right;
+        input {
+            width: 300px;
+            height: 35px;
+            border: none;
+            outline: none;
         }
         
-        .sixth {
-            width: 240px;
-            height: 45px;
-            margin-top: 40px;
-            margin-left: 100px;
+        [type="text"] {
+            border-bottom: 1px solid black;
         }
         
-        .seven {
-            float: left;
-            margin-left: 40px;
+        [type="radio"] {
+            width: 37%;
+            border-radius: 0;
+            border: 1px solid #ccc;
         }
         
-        .eight {
-            float: right;
-            margin-right: 40px;
+        [type="button"] {
+            width: 37%;
         }
-        /* .img {
+        
+        [value="注册"] {
+            margin-left: 80px;
+        }
+        
+        select {
+            width: 37%;
+            height: 35px;
+        }
+        
+        [id="s"] {
+            width: 75%;
+        }
+        
+        .img {
             width: 100%;
             height: 100%;
-            margin-top: 500px;
-        } */
+        }
     </style>
 </head>
 
@@ -85,53 +89,53 @@
     <div>
         <div class="container">
             <div class="left">
-                <div class="one">
+                <div class="zc">
                     <h2>预约试驾</h2>
                 </div>
-                <div class="two">
-                    姓名：<input type="text" value="">
+                <div class="zc">
+                    <input type="text" value="" placeholder="姓名">
                 </div>
-                <div class="three">
-                    电话：<input type="number" value="">
+                <div class="zc">
+                    <input type="text" value="" placeholder="电话">
                 </div>
-                <div class="fourth">
-                    <div class="four">
-                        省份
-                        <select name="" id="">
-                            <option value="">asknc</option>
-                            <option value="">asknc</option>
-                            <option value="">asknc</option>
-                            <option value="">asknc</option>
+                <div class="zc">
+
+
+                    <select name="prov" id="" placeholder="省份 ">
+                            <option value="">黑龙江</option>
+                            <option value="">吉林</option>
+                            <option value="">辽宁</option>
+                            <option value="">江苏</option>
                         </select>
-                    </div>
-                    <div class="five">
-                        城市
-                        <select name="" id="">
-                            <option value="">asknc</option>
-                            <option value="">asknc</option>
-                            <option value="">asknc</option>
-                            <option value="">asknc</option>
+                    <select name="city" id="" placeholder="城市">
+                            <option value="">哈尔滨</option>
+                            <option value="">苏州</option>
+                            <option value="">常州</option>
+                            <option value="">南京</option>
                         </select>
-                    </div>
                 </div>
-                <div class="six">
-                    请选择经销商
-                    <select name="" id="">
-                        <option value="">asvkm</option>
-                        <option value="">asvkm</option>
-                        <option value="">asvkm</option>
-                        <option value="">asvkm</option>
+                <div class="zc">
+
+                    <select name="shop" id="s" placeholder="请选择经销商">
+                        <option value="">广州</option>
+                        <option value="">上海</option>
+                        <option value="">深圳</option>
+                        <option value="">北京</option>
                     </select>
                 </div>
-                <div class="sixth">
-                    <div class="seven">
-                        <input type="button" value="哪吒U Pro">
-                    </div>
-                    <div class="eight">
-                        <input type="button" value="哪吒V">
-                    </div>
+                <div class="zc">
+
+                    <input type="radio" value="哪吒U Pro">
+
+
+                    <input type="radio" value="哪吒V">
+
                 </div>
-                <div class="nine"></div>
+
+                <div class="zc">
+                    <a href="button"><input type="button" value="注册"></a>
+                </div>
+
 
             </div>
             <div>

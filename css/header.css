@@ -126,6 +126,7 @@ i {
     background-color: transparent;
     color: #fff;
     text-indent: 1em;
+    outline: none;
 }
 
 .nav_right>li:nth-child(1) {
@@ -139,4 +140,18 @@ i {
     border: 1px solid #fff;
     border-radius: 12px;
     margin-top: 10px;
+}
+
+.nav_right>li:nth-child(3) {
+    width: 100px;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.nav_right>li:hover a {
+    color: #000;
+    font-weight: 700;
 }
