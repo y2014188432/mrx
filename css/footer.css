@@ -48,6 +48,10 @@
     text-decoration: underline;
 }
 
+.footNav li {
+    margin: 10px 0;
+}
+
 .footNav1 {
     margin-left: 50px;
 }

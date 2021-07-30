@@ -21,7 +21,7 @@
             </a>
         </div>
         <div class="loop">
-            <ul class="nav_left">
+            <ul class="nav_left" id="Navfont">
                 <li>车型<i></i>
                     <ul class="subNav">
                         <li><a href="Cartype.html" target="_blank">哪吒U pro</a></li>
@@ -44,7 +44,7 @@
                     </ul>
                 </li>
             </ul>
-            <ul class="nav_right">
+            <ul class="nav_right" id="Navfont">
                 <li><input type="search" name="" id=""></li>
                 <li><a href="OrderCar.html" target="_blank">预定车型</a></li>
                 <li><a href="OrderInfor.html" target="_blank">预约试驾</a></li>
@@ -57,9 +57,9 @@
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
-            console.log(121);
-            if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-                document.getElementById("topNav").style.backgroundColor = "red";
+
+            if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
+                document.getElementById("topNav").style.backgroundColor = "#000";
             } else {
                 document.getElementById("topNav").style.backgroundColor = "transparent";
             }

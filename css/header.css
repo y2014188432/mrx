@@ -7,6 +7,7 @@ a {
     height: 50px;
     background-color: transparent;
     position: fixed;
+    /* top: 2px; */
     z-index: 10;
 }
 
@@ -25,7 +26,11 @@ a {
     top: 13px;
 }
 
-.logo_black {
+#logo_white {
+    display: block;
+}
+
+#logo_black {
     display: none;
 }
 
